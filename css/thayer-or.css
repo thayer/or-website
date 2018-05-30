@@ -1,0 +1,431 @@
+a {
+  text-decoration: none;
+}
+
+.superheader {
+  height: 40px;
+}
+
+.body {
+  padding-top: 146px;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.navbar {
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #eee;
+}
+
+.nav-link.w--current {
+  color: #eee;
+  text-decoration: none;
+}
+
+.nav-link.w--open {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #12312b;
+}
+
+.nav-icon {
+  margin-right: 16px;
+  color: hsla(0, 0%, 93%, .75);
+}
+
+.dropdown-list {
+  background-color: #046a38;
+}
+
+.dropdown-list.w--open {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #12312b;
+}
+
+.nav-drop-link {
+  color: #eee;
+}
+
+.nav-drop-link:hover {
+  text-decoration: underline;
+}
+
+.nav-drop-link.w--current {
+  color: #eee;
+  text-decoration: underline;
+}
+
+.nav-bar {
+  background-color: #046a38;
+}
+
+.navigation {
+  padding: 8px 96px;
+  background-color: #00693e;
+}
+
+.super-header {
+  padding: 16px 96px 12px;
+  background-color: #fff;
+}
+
+.dartmouth-engineering-logo-link {
+  display: block;
+  width: 450px;
+  height: 36px;
+  float: left;
+  background-image: url('../images/super-header.svg');
+  background-position: 0px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.thayer-foot {
+  padding: 28px 96px;
+  background-color: #00693e;
+}
+
+.thayer {
+  padding-top: 8px;
+}
+
+.foot-text-block {
+  color: #fff;
+  font-weight: 100;
+  text-align: right;
+}
+
+.text-span-3 {
+  text-decoration: underline;
+}
+
+.text-span-2 {
+  text-decoration: underline;
+}
+
+.dartmouth-foot {
+  padding: 28px 96px;
+  background-color: #12312b;
+}
+
+.dartmouth {
+  width: 200px;
+}
+
+.section {
+  min-height: 106px;
+  padding-right: 56px;
+  padding-left: 56px;
+}
+
+.dartmouth-pine-logo-link {
+  width: 34px;
+  height: 34px;
+  float: right;
+  background-image: url('../images/D-Pine_Green.svg');
+  background-position: 100% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.image {
+  height: 34px;
+  margin-top: 1px;
+}
+
+.foot-link {
+  padding-left: 24px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.foot-link:hover {
+  text-decoration: underline;
+}
+
+.link-2 {
+  color: #eee;
+}
+
+.sdfsd {
+  text-align: center;
+}
+
+.image-2 {
+  width: 100%;
+}
+
+.hero {
+  padding: 125px 200px;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .56), hsla(0, 0%, 100%, .56)), url('../images/background.png');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .56), hsla(0, 0%, 100%, .56)), url('../images/background.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, 150%;
+  background-repeat: repeat, no-repeat;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, .08);
+}
+
+.logo-text {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #eee;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.logo-text.w--current {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.editable {
+  min-height: 600px;
+  padding: 48px 96px;
+}
+
+.site-logo {
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+@media (max-width: 991px) {
+  .body {
+    padding-top: 0px;
+  }
+  .navbar {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .nav-link {
+    background-color: transparent;
+  }
+  .nav-link.w--current {
+    border-bottom-style: none;
+  }
+  .nav-link.w--open {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .icon {
+    color: #eee;
+  }
+  .menu-button.w--open {
+    background-color: #046a38;
+  }
+  .nav-menu {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .navigation {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .super-header {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .dartmouth-engineering-logo-link {
+    margin-left: 0px;
+    background-position: 0px 50%;
+  }
+  .thayer-foot {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .dartmouth-foot {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .copyright {
+    display: block;
+  }
+  .address {
+    display: block;
+  }
+  .hero {
+    padding: 48px 40px;
+  }
+  .logo-text {
+    padding-bottom: 0px;
+  }
+  .logo-text.w--current {
+    padding-top: 25px;
+    padding-bottom: 16px;
+  }
+  .editable {
+    padding: 16px 32px;
+  }
+  .header {
+    position: relative;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-link.home.w--current {
+    display: none;
+  }
+  .nav-menu {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .navigation {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .super-header {
+    padding-top: 12px;
+    padding-bottom: 8px;
+  }
+  .dartmouth-engineering-logo-link {
+    height: 26px;
+  }
+  .thayer-foot {
+    text-align: center;
+  }
+  .thayer {
+    margin-bottom: 16px;
+  }
+  .foot-text-block {
+    text-align: center;
+  }
+  .dartmouth-foot {
+    padding-right: 24px;
+    padding-left: 24px;
+    text-align: center;
+  }
+  .dartmouth {
+    margin-bottom: 16px;
+  }
+  .dartmouth-pine-logo-link {
+    width: 26px;
+    height: 26px;
+  }
+  .image {
+    height: 26px;
+    margin-top: -8px;
+  }
+  .foot-link {
+    display: inline;
+    padding-right: 24px;
+  }
+  .hero {
+    padding: 50px 50px 50px 32px;
+  }
+  .logo-text.w--current {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .nav-link {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .nav-link.w--open {
+    border-radius: 0px;
+    background-color: #00693e;
+  }
+  .nav-link.home.w--current {
+    display: block;
+  }
+  .icon {
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .menu-button {
+    padding-top: 10px;
+    float: none;
+  }
+  .menu-button.w--open {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #12312b;
+  }
+  .nav-menu {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #12312b;
+  }
+  .dropdown-list.w--open {
+    padding-top: 0px;
+    padding-bottom: 16px;
+    border-radius: 0px;
+    background-color: #00693e;
+  }
+  .nav-drop-link {
+    padding-right: 26px;
+    padding-left: 26px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .super-header {
+    padding: 10px 16px 6px;
+  }
+  .dartmouth-engineering-logo-link {
+    width: 100%;
+    height: 26px;
+  }
+  .thayer-foot {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .thayer {
+    margin-bottom: 16px;
+  }
+  .text-span-2 {
+    text-align: center;
+  }
+  .dartmouth-foot {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .dartmouth {
+    margin-bottom: 16px;
+  }
+  .dartmouth-pine-logo-link {
+    display: none;
+  }
+  .hero {
+    padding: 34px 24px;
+  }
+  .editable {
+    padding: 8px 16px;
+  }
+  .text-block {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    color: #eee;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .dropdown {
+    border-radius: 0px;
+  }
+}
+
